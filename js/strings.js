@@ -6,9 +6,10 @@
 //STEP 2:Create an application that prompts the user for their name. Then, prompt the user for a numeric value so that they can find the letter in the string based on the number they specify. Use the alert method to display the result.
 let yName  = prompt('WELCOME TO THE NAME-CHARACTER-FINDER!\nPlease enter your name:');
 let max = yName.length;
-let num    = parseInt(prompt('Please enter a number between 0 and ' ${max}));
+console.log(max);
+let num    = parseInt(prompt(`Please enter a number between:\n0 and ${max}. ` ));
 let answer = yName.charAt(num);
-alert(`The character at your selected position is: ${answer}.`);
+alert(`The character at your selected position is: ${answer}`);
 
 //STEP 3
 
