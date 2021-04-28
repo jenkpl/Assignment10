@@ -1,15 +1,16 @@
 //STEP 1:Create an application that prompts the user for their name. Then, find the length of characters in the person’s name. Use the alert method to display the result.
-// let yName   = prompt('WELCOME TO THE NAME-LENGTH-O-METER!\nPlease enter your name:');
-// let howLong = yName.length;
-// alert(`RESULTS ARE IN: Your name is: ${howLong} characters long!`);
+    // let yName   = prompt('WELCOME TO THE NAME-LENGTH-O-METER!\nPlease enter your name:');
+    // let howLong = yName.length;
+    // alert(`RESULTS ARE IN: Your name is: ${howLong} characters long!`);
+
 
 //STEP 2:Create an application that prompts the user for their name. Then, prompt the user for a numeric value so that they can find the letter in the string based on the number they specify. Use the alert method to display the result.
-// let yName   = prompt('WELCOME TO THE NAME-CHARACTER-FINDER!\nPlease enter your name:');
-// let max     = yName.length;
-// console.log(max);
-// let num     = parseInt(prompt(`Please enter a number between:\n0 and ${max}. ` ));
-// let answer  = yName.charAt(num);
-// alert(`The character at your selected position is: ${answer}`);
+    // let yName   = prompt('WELCOME TO THE NAME-CHARACTER-FINDER!\nPlease enter your name:');
+    // let max     = yName.length;
+    // console.log(max);
+    // let num     = parseInt(prompt(`Please enter a number between:\n0 and ${max}. ` ));
+    // let answer  = yName.charAt(num);
+    // alert(`The character at your selected position is: ${answer}`);
 
 //STEP 3: Create an application that prompts the user for their first name. Then, prompt the user for their last name using a second prompt. Use the alert method to display the text "Your name is: " along with the result of the first name and last name concatenated together. You will use a concatenation operator to concatenate the literal string with the result of the String object method’s result.
     // let fname    = prompt(`Please enter your first name.`);
@@ -35,11 +36,14 @@
     // let cutSample = sample.slice(loc1, loc2);
     // alert(cutSample.concat(uName));
 
-//*****STEP 7:Create an application that stores the text “The quick brown fox jumps over the lazy dog” within a variable. Then, prompt the user for a word. Next, search for the word within the string that the user enters into the prompt. Use the alert method to display the result.
-// let sample = 'The quick brown fox jumps over the lazy dog';
-// let seek   = prompt(`Please enter a word to search for within the sample.`);
-// alert(sample.indexOf('${seek}'));
-
+//STEP 7:Create an application that stores the text “The quick brown fox jumps over the lazy dog” within a variable. Then, prompt the user for a word. Next, search for the word within the string that the user enters into the prompt. Use the alert method to display the result.
+//     let sample = 'The quick brown fox jumps over the lazy dog';
+//     let seek   = prompt(`Please enter a word to search for within the sample.`);
+//     if(sample.indexOf(seek) !== -1){
+// alert(`The location of the word \"${seek}\" is index: ` + sample.indexOf(seek));
+// } else {
+//     alert(`Sorry, no match found.`);
+// }
 //STEP 8:Create an application that stores the text “The quick brown fox jumps over the lazy dog” within a variable called old_string. Then, use slice(), substr(), or substring() to extract the words “the lazy dog” from the old_string variable and store that result in a second variable called new_string. Use the alert method to display the uppercase result of new_string.
     // let old_string       = 'The quick brown fox jumps over the lazy dog';
     // let loc1             = old_string.lastIndexOf('the');
@@ -52,12 +56,12 @@
     // alert(spaceyString.toLowerCase().trim());
 
 
-//******STEP 10:Create an application that stores the text “the quick brown fox jumps over the lazy dog” within a variable. The user clearly forgot to capitalize the first letter in the sentence. Programmatically capitalize the first letter in the sentence and display the result in an alert.
+//STEP 10:Create an application that stores the text “the quick brown fox jumps over the lazy dog” within a variable. The user clearly forgot to capitalize the first letter in the sentence. Programmatically capitalize the first letter in the sentence and display the result in an alert.
     // let samp  = 'the quick brown fox jumps over the lazy dog';
     // let first = samp.charAt(0);
     // let cap = first.toUpperCase();
     // console.log(first);
     // console.log(cap);
-    // alert(samp.replace(('first'), ('cap')));
+    // alert(samp.replace((first), (cap)));
     
 

@@ -1,9 +1,10 @@
 //STEP 1:Create an application that gets the number of days in a month. Display that result within the console window.
-    //  let d = new Date();
-
-
-
-
+    // function daysinM (month, year) {
+    //     return new Date(year, month, 0).getDate();
+    // }
+    // let uMonth = prompt(`Enter desired month according to the following numeric code:\nJanuary = 1, February = 2, March = 3, April = 4,\nMay = 5, June = 6, July = 7, August = 8, September = 9, \nOctober = 10, November = 11, December = 12`);
+    // let uYear = prompt(`Now enter the year in numeric format XXXX`);
+    // alert(`There were ${daysinM(uMonth, uYear)} days in the month of ${uMonth}/${uYear}.`);
 
 //STEP 2:Create an application that gets the month name from a particular date. Display that result within the console window.
 // let d = new Date();
@@ -87,7 +88,7 @@
 // console.log(`Yesterday was: ${yDay}.`);
 
 
-//STEP 5:Create an application that gets the current day of the week. The twist here is that I want only the first letter of the day. If today is Tuesday, the letter T should be displayed in the console window.
+// STEP 5:Create an application that gets the current day of the week. The twist here is that I want only the first letter of the day. If today is Tuesday, the letter T should be displayed in the console window.
 // let d    = new Date();
 // let day  = d.getDay();
 // let disp;
